@@ -87,6 +87,8 @@ namespace _231479___231464
         {
             if (txtalterar.Text != "")
             {
+                contador = contador - double.Parse(dvgProdutos.CurrentRow.Cells["Quantidade"].Value.ToString());
+
                 dvgProdutos.CurrentRow.Cells["Quantidade"].Value = txtalterar.Text;
 
                 txtalterar.Clear();

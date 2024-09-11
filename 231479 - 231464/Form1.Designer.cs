@@ -89,7 +89,7 @@
             this.txtproduto.Location = new System.Drawing.Point(151, 110);
             this.txtproduto.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.txtproduto.Name = "txtproduto";
-            this.txtproduto.Size = new System.Drawing.Size(751, 22);
+            this.txtproduto.Size = new System.Drawing.Size(774, 22);
             this.txtproduto.TabIndex = 3;
             // 
             // label3
@@ -130,7 +130,7 @@
             // 
             // btninserir
             // 
-            this.btninserir.Location = new System.Drawing.Point(460, 191);
+            this.btninserir.Location = new System.Drawing.Point(481, 192);
             this.btninserir.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btninserir.Name = "btninserir";
             this.btninserir.Size = new System.Drawing.Size(200, 76);
@@ -141,7 +141,7 @@
             // 
             // btnremover
             // 
-            this.btnremover.Location = new System.Drawing.Point(691, 191);
+            this.btnremover.Location = new System.Drawing.Point(713, 192);
             this.btnremover.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btnremover.Name = "btnremover";
             this.btnremover.Size = new System.Drawing.Size(212, 76);
@@ -205,7 +205,7 @@
             // label5
             // 
             this.label5.AutoSize = true;
-            this.label5.Location = new System.Drawing.Point(49, 638);
+            this.label5.Location = new System.Drawing.Point(69, 638);
             this.label5.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(244, 16);
@@ -214,7 +214,7 @@
             // 
             // txtalterar
             // 
-            this.txtalterar.Location = new System.Drawing.Point(315, 638);
+            this.txtalterar.Location = new System.Drawing.Point(409, 638);
             this.txtalterar.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.txtalterar.Name = "txtalterar";
             this.txtalterar.Size = new System.Drawing.Size(251, 22);
@@ -222,7 +222,7 @@
             // 
             // btnalterar
             // 
-            this.btnalterar.Location = new System.Drawing.Point(647, 626);
+            this.btnalterar.Location = new System.Drawing.Point(720, 626);
             this.btnalterar.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btnalterar.Name = "btnalterar";
             this.btnalterar.Size = new System.Drawing.Size(205, 47);
@@ -234,7 +234,7 @@
             // label6
             // 
             this.label6.AutoSize = true;
-            this.label6.Location = new System.Drawing.Point(377, 726);
+            this.label6.Location = new System.Drawing.Point(69, 725);
             this.label6.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(92, 16);
@@ -244,7 +244,7 @@
             // lblvenda
             // 
             this.lblvenda.AutoSize = true;
-            this.lblvenda.Location = new System.Drawing.Point(537, 725);
+            this.lblvenda.Location = new System.Drawing.Point(230, 725);
             this.lblvenda.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblvenda.Name = "lblvenda";
             this.lblvenda.Size = new System.Drawing.Size(51, 16);
@@ -253,7 +253,7 @@
             // 
             // btngravar
             // 
-            this.btngravar.Location = new System.Drawing.Point(116, 757);
+            this.btngravar.Location = new System.Drawing.Point(328, 702);
             this.btngravar.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btngravar.Name = "btngravar";
             this.btngravar.Size = new System.Drawing.Size(136, 63);
@@ -264,7 +264,7 @@
             // 
             // btncancelar
             // 
-            this.btncancelar.Location = new System.Drawing.Point(326, 757);
+            this.btncancelar.Location = new System.Drawing.Point(537, 702);
             this.btncancelar.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btncancelar.Name = "btncancelar";
             this.btncancelar.Size = new System.Drawing.Size(144, 63);
@@ -275,7 +275,7 @@
             // 
             // btnfechar
             // 
-            this.btnfechar.Location = new System.Drawing.Point(563, 757);
+            this.btnfechar.Location = new System.Drawing.Point(765, 702);
             this.btnfechar.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btnfechar.Name = "btnfechar";
             this.btnfechar.Size = new System.Drawing.Size(160, 63);
