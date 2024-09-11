@@ -65,6 +65,14 @@ namespace _231479___231464
                 lblvendas.Text = dvgProdutos.RowCount.ToString();
 
                 lblvenda.Text = totalAlterado.ToString("c");
+
+                MessageBox.Show("Venda removida com sucesso", "Exclusão",
+                    MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
+            }
+            else
+            {
+                MessageBox.Show("Você não celecionou nenhum registro", "Exclusão",
+                                MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
             }
         }
         private void dvgProdutos_CellClick(object sender, DataGridViewCellEventArgs e)
@@ -106,6 +114,51 @@ namespace _231479___231464
             }
         }
 
-       
+        private void btncancelar_Click(object sender, EventArgs e)
+        {
+            if (dvgProdutos.RowCount > 0)
+            {
+                dvgProdutos.RowCount = 0;
+                lblvenda.Text = "R$ 00,00";
+                lblvendas.Text = "0";
+                txtqnt.Clear();
+                txtvlt.Clear();
+                txtalterar.Clear();
+
+                MessageBox.Show("Venda cancelada com sucesso", "Cancelamento",
+                    MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
+            }
+            else
+            {
+                MessageBox.Show("Você ainda não tem vendas", "Cancelamento",
+                    MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
+            }
+        }
+
+        private void btnfechar_Click(object sender, EventArgs e)
+        {
+            Application.Exit();
+        }
+
+        private void btngravar_Click(object sender, EventArgs e)
+        {
+            if (dvgProdutos.RowCount > 0)
+            {
+                dvgProdutos.RowCount = 0;
+                lblvenda.Text = "R$ 00,00";
+                lblvendas.Text = "0";
+                txtqnt.Clear();
+                txtvlt.Clear();
+                txtalterar.Clear();
+
+                MessageBox.Show("Venda registrada com sucesso", "Registro",
+                    MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
+            }
+            else
+            {
+                MessageBox.Show("Você registrou 0 vendas", "Registro",
+                    MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
+            }
+        }
     }
 }
